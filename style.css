@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0 14px;
+    font-size: 24px;
+    margin-right: 172px;
+}
+
+.logo img{
+    height:55px;
+    filter:invert(1);
+
+}
+#navbar {
+    background-color: darkcyan;
+    padding:13px 30px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 18px;
+    color: yellow;
+    font-size: 27px;
+    background-color:darkred;
+}
+
+#navbar li a:hover{
+    color:red;
+}
+
+#introSection{
+    font-family:'Lobster', cursive;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/static/img/a.jpg') no-repeat center/cover;
+    height:425px;
+    background-color:greenyellow;
+    font-size: 65px;
+    padding-bottom:25px;
+}
+
+#introSection div.small{
+    font-size: 45px;
+    padding:10px;
+}
+
+#missionSection{
+    height: 400px;
+    background-color:red;
+}
+
+#missionSection h2{
+    font-family:'Lobster', cursive;
+    text-align: center;
+    padding-top: 13px;
+    font-size:60px;
+    color:darkblue;
+}
+
+.card{
+    border:5px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:23px 20px;
+    height:220px;
+    display: inline-block;
+    background: turquoise;
+}
+.card h1{
+    text-align: center;
+    margin:16px 15px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size:20px;
+    color:yellow;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img { 
+    height: 120px;;
+    padding: 0 18px;
+    margin:5px 10px;
+}
+
+.card-img img { 
+    height:inherit;
+}
+
+.card-content{
+    padding: 0 15px;
+}
+
+.card-content p{
+    font-size: 25px;
+}
+#sponsorsSection{
+    height:350px;
+    background-color:tomato;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 30px;
+    font-family:'Lobster', cursive;
+    font-size:60px;
+    color:green;
+}
+
+#sponsers{
+    height:120px;
+    max-width: 1000px;
+    margin:33px auto;
+}
+
+.spImage{
+    height: 96%;
+    margin:20px;
+}
+
+#footer{
+    display: flex;
+    background-color:gold;
+    color:darkred;
+    height:70px;
+    font-size:40px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lobster', cursive;
+}
